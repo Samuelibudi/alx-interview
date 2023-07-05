@@ -4,6 +4,7 @@
 This module provides a method to determine if all boxes can be unlocked.
 """
 
+
 def canUnlockAll(boxes):
     """
     Determines if all the boxes can be opened.
@@ -18,7 +19,6 @@ def canUnlockAll(boxes):
     num_boxes = len(boxes)
     unlocked_boxes = [False] * num_boxes
     unlocked_boxes[0] = True
-
 
     # Start with the keys from the first box
     keys = [0]
